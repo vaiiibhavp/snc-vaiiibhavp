@@ -42,7 +42,7 @@ export const MainLayout: FunctionComponent<
 
   const handleChange = (data: string) => {
     setSelectBtn(data);
-    mutate(data, enableLogs);
+    mutate(data);
   };
   return (
     <main
